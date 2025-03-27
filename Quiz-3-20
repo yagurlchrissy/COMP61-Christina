@@ -1,0 +1,39 @@
+my_list = []
+menu_option =  0
+
+while(menu_option != 3):
+    print("1. add item")
+    print("2. remove item")
+    menu_list = input("pick a number")
+
+if (menu_list == 1):
+    menu_name = input("enter number")
+    menu_list.append(my_list)
+
+if (menu_list == 2):
+    menu_name.pop()
+    print(menu_list)
+
+#class MenuProgram
+# def show menu
+# def display_output
+# def run main logic
+#menu_program = MenuProgram()
+#menu_program.run()
+# SOLUTION
+
+class MenuProgram:
+    def __init__(self):
+        self.item_list = []
+        self.menu_option = 0
+    def show_menu(self):
+        print("1. add item")
+        print("2. remove item")
+        self.menu_option = int(input("enter an option:"))
+    def display_output(self):
+        print(self.item_list)
+    def run(self):
+        while(self.menu_option != 3):
+            self.show_menu()
+            if(self.menu_option == 1 )
+               item_ # the rest is in picture
